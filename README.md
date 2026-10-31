@@ -23,3 +23,4 @@ Adapted from the user's Xert MCP project. **Read-only**. GitHub authentication r
 **SFT limitation:** these tools return original activity JSON, not a guaranteed original SFT verdict. Whether Intervals.icu exposes the *complete* on-screen SFT assessment through its public API is not established.
 
 **Security:** OAuth authorization is required and restricted to the owner's GitHub account. Intervals.icu's personal API key is held only as a Cloudflare secret. This initial version exposes raw activity and wellness JSON, so connect it only to trusted clients. Do not add wildcard proxy endpoints. No write tools are present.
+Test
