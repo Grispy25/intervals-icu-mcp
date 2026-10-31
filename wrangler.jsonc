@@ -8,7 +8,7 @@
     "MCP_RESOURCE": "https://intervals-icu-mcp.YOUR_SUBDOMAIN.workers.dev/mcp"
   },
   "kv_namespaces": [
-    { "binding": "OAUTH_KV", "id": "REPLACE_WITH_NEW_KV_NAMESPACE_ID" }
+    { "binding": "OAUTH_KV", "id": "46f56fe76457428c94dcac809d3f5000" }
   ],
   "observability": { "enabled": true },
   "secrets": {
