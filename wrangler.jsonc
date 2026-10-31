@@ -5,7 +5,7 @@
   "compatibility_date": "2025-03-10",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "MCP_RESOURCE": "https://intervals-icu-mcp.YOUR_SUBDOMAIN.workers.dev/mcp"
+    "MCP_RESOURCE": "https://intervals-icu-mcp.harrycilek.workers.dev/mcp"
   },
   "kv_namespaces": [
     { "binding": "OAUTH_KV", "id": "46f56fe76457428c94dcac809d3f5000" }
