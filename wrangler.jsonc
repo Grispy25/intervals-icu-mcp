@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "intervals-icu-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "MCP_RESOURCE": "https://intervals-icu-mcp.YOUR_SUBDOMAIN.workers.dev/mcp"
+  },
+  "kv_namespaces": [
+    { "binding": "OAUTH_KV", "id": "REPLACE_WITH_NEW_KV_NAMESPACE_ID" }
+  ],
+  "observability": { "enabled": true },
+  "secrets": {
+    "required": [
+      "GITHUB_CLIENT_ID",
+      "GITHUB_CLIENT_SECRET",
+      "COOKIE_ENCRYPTION_KEY",
+      "INTERVALS_API_KEY"
+    ]
+  }
+}
